@@ -1,0 +1,193 @@
+/* ========== Global Styles ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #f5f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ========== Navbar ========== */
+.navbar {
+    background: #2c3e50;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #1abc9c;
+}
+
+/* ========== Buttons ========== */
+.btn {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    margin: 0.5rem;
+    background: #1abc9c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #16a085;
+    transform: translateY(-2px);
+}
+
+/* ========== Footer ========== */
+.footer {
+    background: #2c3e50;
+    color: #bdc3c7;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* ========== Home Page ========== */
+.home-page {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.home-page h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.home-page p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+/* ========== Tables (Employee/Department) ========== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+    padding: 0.9rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background: #34495e;
+    color: #fff;
+}
+
+table tr:hover {
+    background: #f1f1f1;
+}
+
+/* ========== Forms ========== */
+form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin: 0.8rem 0 0.4rem;
+    font-weight: 600;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 1rem;
+}
+
+/* ========== Sidebar Layout (optional) ========== */
+.hr-layout {
+    display: flex;
+    gap: 2rem;
+}
+
+.sidebar {
+    width: 220px;
+    background: #34495e;
+    padding: 1.5rem;
+    border-radius: 6px;
+    color: #ecf0f1;
+    height: fit-content;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 1rem 0;
+}
+
+.sidebar ul a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.sidebar ul a:hover {
+    color: #1abc9c;
+}
